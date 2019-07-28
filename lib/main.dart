@@ -15,6 +15,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  // TODO: Pass this list to a service
   List<String> _quotes = [
     'Your limitation—it’s only your imagination.',
     'Push yourself, because no one else is going to do it for you.',
@@ -55,6 +56,7 @@ class _HomePageState extends State<HomePage> {
         title: Text(_appTitle),
         backgroundColor: Colors.green,
       ),
+      // TODO: Pass this container to a new Widget
       body: Container(
         padding: EdgeInsets.all(16),
         width: double.infinity,
